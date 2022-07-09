@@ -1,5 +1,6 @@
 import { AppleAward } from "./AppleAward";
 import { GoogleAward } from "./GoogleAward";
+import "./appStoreAward.css";
 
 export function AppStoreAward() {
   return (

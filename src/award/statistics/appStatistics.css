@@ -1,0 +1,19 @@
+.app-stats {
+  margin-left: 623px;
+  padding-top: 150px;
+  animation: fade-in 700ms ease-out;
+  animation-delay: 100ms;
+  animation-fill-mode: backwards;
+}
+
+.stats-item {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-family: sans-serif;
+  letter-spacing: -1px;
+  color: rgb(58, 58, 58);
+}
+
+.stats-item > strong {
+  font-weight: bold;
+}
