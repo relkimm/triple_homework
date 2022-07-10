@@ -1,6 +1,6 @@
-import { ScheduleStatistics } from "./ScheduleStatistics";
-import { ReviewStatistics } from "./ReviewStatistics";
-import { UserStatistics } from "./UserStatistics";
+import { UserStatistics } from "./component/UserStatistics";
+import { ReviewStatistics } from "./component/ReviewStatistics";
+import { ScheduleStatistics } from "./component/ScheduleStatistics";
 import "./tripleStatistics.css";
 
 export function TripleStatistics() {

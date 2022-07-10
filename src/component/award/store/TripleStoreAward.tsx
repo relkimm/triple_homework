@@ -1,5 +1,5 @@
-import { PlayStoreAward } from "./PlayStoreAward";
-import { AppStoreAward } from "./AppStoreAward";
+import { PlayStoreAward } from "./component/PlayStoreAward";
+import { AppStoreAward } from "./component/AppStoreAward";
 import "./tripleStoreAward.css";
 
 export function TripleStoreAward() {
