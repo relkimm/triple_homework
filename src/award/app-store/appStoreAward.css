@@ -1,20 +1,22 @@
-.app-store-award {
+.ly-app-store-award {
   margin: 50px 0px 140px 623px;
-  white-space: nowrap;
-  animation: fade-in 700ms ease-out;
-  animation-delay: 200ms;
-  animation-fill-mode: backwards;
 }
 
-.award-item {
+.app-store-award {
+  white-space: nowrap;
+}
+
+.ly-award-item {
   display: inline-block;
   height: 54px;
   line-height: 22px;
   padding: 5px 0px 5px 62px;
   margin-right: 39px;
+}
+
+.award-item {
   font-size: 14px;
   font-weight: bold;
-  font-family: sans-serif;
   background-size: 54px 54px;
   background-position: left top;
   background-repeat: no-repeat;

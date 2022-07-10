@@ -1,6 +1,6 @@
 export function UserStatistics() {
   return (
-    <div className="stats-item">
+    <div className="ly-stats-item stats-item">
       <strong>
         <span>700</span>만 명
       </strong>

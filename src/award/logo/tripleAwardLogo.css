@@ -1,17 +1,17 @@
-.triple-award-logo {
+.ly-triple-logo {
   position: absolute;
   top: 150px;
   width: 400px;
   height: 338px;
   padding-top: 280px;
   box-sizing: border-box;
+}
+
+.triple-logo {
   background-size: 400px 338px;
   background-image: url(../../../public/asset/images/triple2x.png);
   background-repeat: no-repeat;
   font-size: 15px;
-  font-family: sans-serif;
   text-align: center;
   color: rgba(58, 58, 58, 0.7);
-  animation: fade-in 700ms ease-out;
-  animation-fill-mode: backwards;
 }

@@ -1,17 +1,40 @@
-.award-content {
+.ly-award-content {
   position: relative;
   width: 1040px;
   height: auto;
   margin: 0px auto;
 }
 
+.award-content {
+  font-family: sans-serif;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
-    transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 20%, 0);
   }
   to {
     opacity: 1;
     transform: translateZ(0);
   }
+}
+
+:is(.fade-in-seq-1, .fade-in-seq-2, .fade-in-seq-3) {
+  animation-name: fade-in;
+  animation-duration: 700ms;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
+.fade-in-seq-1 {
+  animation-delay: 100ms;
+}
+
+.fade-in-seq-2 {
+  animation-delay: 200ms;
+}
+
+.fade-in-seq-3 {
+  animation-delay: 300ms;
 }

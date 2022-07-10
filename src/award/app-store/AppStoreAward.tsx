@@ -4,7 +4,7 @@ import "./appStoreAward.css";
 
 export function AppStoreAward() {
   return (
-    <div className="app-store-award">
+    <div className="ly-app-store-award app-store-award fade-in-seq-3">
       <GoogleAward />
       <AppleAward />
     </div>

@@ -1,6 +1,6 @@
 export function ReviewStatistics() {
   return (
-    <div className="stats-item">
+    <div className="ly-stats-item stats-item">
       <strong>
         <span>100</span>만 개
       </strong>

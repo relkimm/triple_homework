@@ -5,7 +5,7 @@ import "./appStatistics.css";
 
 export function AppStatistics() {
   return (
-    <div className="app-stats">
+    <div className="ly-app-stats app-stats fade-in-seq-2">
       <UserStatistics />
       <ReviewStatistics />
       <ScheduleStatistics />
