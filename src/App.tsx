@@ -6,6 +6,7 @@ function App() {
     <div className="app">
       <SpaceDiv />
       <AwardSection />
+      <SpaceDiv />
     </div>
   );
 }
@@ -16,7 +17,7 @@ function SpaceDiv() {
   return (
     <div
       style={{
-        height: 800,
+        height: 600,
       }}
     />
   );
