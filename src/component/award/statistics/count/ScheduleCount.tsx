@@ -1,4 +1,4 @@
-import { useCountUp } from "../../../shared/hook/useCountUp";
+import { useCountUp } from "../../../../shared/hook/useCountUp";
 
 export function ScheduleCount() {
   const count = useCountUp(470);

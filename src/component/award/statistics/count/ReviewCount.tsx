@@ -1,4 +1,4 @@
-import { useCountUp } from "../../../shared/hook/useCountUp";
+import { useCountUp } from "../../../../shared/hook/useCountUp";
 
 export function ReviewCount() {
   const count = useCountUp(100);

@@ -1,4 +1,4 @@
-.ly-triple-logo {
+.ly-triple-award-logo {
   position: absolute;
   top: 150px;
   width: 400px;
@@ -7,9 +7,9 @@
   box-sizing: border-box;
 }
 
-.triple-logo {
+.triple-award-logo {
   background-size: 400px 338px;
-  background-image: url(../../../public/asset/images/triple2x.png);
+  background-image: url(../../../../public/asset/images/triple2x.png);
   background-repeat: no-repeat;
   font-size: 15px;
   text-align: center;

@@ -1,12 +1,12 @@
-.ly-app-store-award {
+.ly-triple-store-award {
   margin: 50px 0px 140px 623px;
 }
 
-.app-store-award {
+.triple-store-award {
   white-space: nowrap;
 }
 
-.ly-award-item {
+.ly-store-item {
   display: inline-block;
   height: 54px;
   line-height: 22px;
@@ -14,7 +14,7 @@
   margin-right: 39px;
 }
 
-.award-item {
+.store-item {
   font-size: 14px;
   font-weight: bold;
   background-size: 54px 54px;
@@ -24,9 +24,9 @@
 }
 
 .google {
-  background-image: url(../../../public/asset/images/play-store2x.png);
+  background-image: url(../../../../public/asset/images/play-store2x.png);
 }
 
 .apple {
-  background-image: url(../../../public/asset/images/badge-apple4x.png);
+  background-image: url(../../../../public/asset/images/badge-apple4x.png);
 }

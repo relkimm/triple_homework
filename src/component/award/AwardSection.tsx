@@ -1,8 +1,8 @@
 import { useRef } from "react";
-import { useIntersection } from "../shared/hook/useIntersection";
+import { useIntersection } from "../../shared/hook/useIntersection";
 import { TripleAwardLogo } from "./logo/TripleAwardLogo";
-import { AppStatistics } from "./statistics/AppStatistics";
-import { AppStoreAward } from "./app-store/AppStoreAward";
+import { TripleStatistics } from "./statistics/TripleStatistics";
+import { TripleStoreAward } from "./store/TripleStoreAward";
 import "./awardSection.css";
 
 export function AwardSection() {
@@ -14,8 +14,8 @@ export function AwardSection() {
       {isIntersected && (
         <div className="ly-award-content award-content">
           <TripleAwardLogo />
-          <AppStatistics />
-          <AppStoreAward />
+          <TripleStatistics />
+          <TripleStoreAward />
         </div>
       )}
     </div>

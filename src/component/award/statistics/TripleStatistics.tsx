@@ -1,11 +1,11 @@
 import { ScheduleStatistics } from "./ScheduleStatistics";
 import { ReviewStatistics } from "./ReviewStatistics";
 import { UserStatistics } from "./UserStatistics";
-import "./appStatistics.css";
+import "./tripleStatistics.css";
 
-export function AppStatistics() {
+export function TripleStatistics() {
   return (
-    <div className="ly-app-stats app-stats fade-in-seq-2">
+    <div className="ly-triple-stats triple-stats fade-in-seq-2">
       <UserStatistics />
       <ReviewStatistics />
       <ScheduleStatistics />

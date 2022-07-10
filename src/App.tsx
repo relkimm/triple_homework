@@ -1,4 +1,4 @@
-import { AwardSection } from "./award/AwardSection";
+import { AwardSection } from "./component/award/AwardSection";
 import "./App.css";
 
 function App() {
@@ -17,7 +17,7 @@ function SpaceDiv() {
   return (
     <div
       style={{
-        height: 600,
+        height: 800,
       }}
     />
   );
