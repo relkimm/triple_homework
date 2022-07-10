@@ -8,7 +8,7 @@ import { outExpo } from "../util/easing";
  * @param end : 종료 카운트
  * @param start : 시작 카운트
  * @param duration : 애니메이션 지속 시간
- * @returns 증가된 count
+ * @returns 증가된 카운트
  */
 export const useCountUp = (
   end: number,
