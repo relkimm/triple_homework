@@ -20,7 +20,9 @@
   }
 }
 
-:is(.fade-in-seq-1, .fade-in-seq-2, .fade-in-seq-3) {
+.fade-in-seq-1,
+.fade-in-seq-2,
+.fade-in-seq-3 {
   animation-name: fade-in;
   animation-duration: 700ms;
   animation-timing-function: ease-out;
