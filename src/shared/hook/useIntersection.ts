@@ -2,8 +2,11 @@ import React, { useEffect, useState } from "react";
 import { isNull, isUndefined } from "../util/type";
 
 /**
- * 첫번째 인자로 전달되는 html 요소(ref)가
- * 화면(viewport) 에 접했는지(intersected) 알려주는 hook
+ * 특정 html 요소(ref) 가 viewport 에 교차했는지 여부를 알려주는 hook
+ *
+ * @param ref : 교차 여부를 알고 싶은 html 요소(ref)
+ * @param options : IntersectionObserver 에 전달하는 options
+ * @returns : 특정 html 요소(ref) viewport 교차 여부
  */
 export const useIntersection = (
   ref: React.RefObject<HTMLElement>,
@@ -23,7 +26,7 @@ export const useIntersection = (
       const isIntersecting = entries.some((e) => e.isIntersecting);
       if (isIntersecting) {
         setIsIntersected(true);
-        observer.disconnect(); // 한번이라도 교차했으면, 더 이상 observe 하지 않는다.
+        observer.disconnect(); // 한번 교차했으면, 더 이상 observe 하지 않는다.
       }
     };
 
